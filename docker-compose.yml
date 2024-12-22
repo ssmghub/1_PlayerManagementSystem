@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0  # 更新为 8.0 版本
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: game
+    ports:
+      - "3306:3306"
+  
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
