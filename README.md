@@ -15,5 +15,5 @@
 1. 安装 Docker 和 Docker Compose。
 2. 克隆项目代码并进入项目目录：
    ```bash
-   git clone https://github.com/yourusername/interview_ShumingShi_20241221.git
+   git clone https://github.com/ssmghub/interview_ShumingShi_20241221.git
    cd interview_ShumingShi_20241221
