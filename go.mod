@@ -1,4 +1,4 @@
-module interview_ShumingShi_20241221/1_PlayerManagementSystem
+module interview_ShumingShi_20241221
 
 go 1.20
 
